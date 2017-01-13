@@ -15,6 +15,8 @@ $(document).ready(function() {
        $(".ruby").show();
      } else if (second === "mobile apps") {
       $(".java").show();
+    } else if (second === "games") {
+      $(".python").show();  
     } else if (first === "") {
        alert("Please answer all of the questions!");
      } else if (second === "") {

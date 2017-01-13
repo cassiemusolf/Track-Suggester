@@ -28,7 +28,7 @@ $(document).ready(function() {
       $(".java").show();
     } else if ( first === "back-end" && second === "games") {
       $(".python").show();
-    } else if (first === "back-end" && second === "all") {
+    } else if (first === "back-end" && second === "software") {
       $(".c").show();
     }
   });

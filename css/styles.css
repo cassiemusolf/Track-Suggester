@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: #ecffe6;
+  background-color: #D8D8D8;
   margin-bottom: 40px;
 }
 
@@ -22,6 +22,7 @@ h3 {
   font-family: cursive;
   color: blue;
   margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 .btn {
@@ -61,3 +62,15 @@ p {
 .name {
   font-weight: bolder;
 }
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);

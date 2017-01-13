@@ -22,7 +22,7 @@ $(document).ready(function() {
        alert("Please answer all of the questions!");
      } else if (first === "front-end") {
         $ (".css").show();
-     } else if (first === "back-end" && second === "web applications" && third === "start-up") {
+     } else if (first === "back-end" && second === "web applications") {
        $(".ruby").show();
      } else if (first === "back-end" && second === "mobile apps") {
       $(".java").show();
@@ -31,9 +31,5 @@ $(document).ready(function() {
     } else if (first === "back-end" && second === "all") {
       $(".c").show();
     }
-      $("input[type=reset]").on("click", function(){
-        window.location.reload()
-    }
-
   });
 });

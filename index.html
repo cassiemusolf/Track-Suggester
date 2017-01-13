@@ -9,10 +9,12 @@
   <title>Programming Track Suggester</title>
 </head>
 <body>
+<section class="hero">
+  <img src="img/program.jpg" alt="programming photo"/>
+  <div class="module mid">
+    <h2>Which Programming Language is Right for YOU??</h2>
+  </div>
   <div class="container">
-    <div class="jumbotron">
-      <h1>Which Programming Language is Right for YOU??</h1>
-    </div>
     <form id="survey">
       <h3>There are many programming languages in the world today. Take this quiz to find out which track is best for you and what you'd like to achieve!</h3>
       <div class="form-group">
@@ -43,28 +45,25 @@
           <option value="start-up">Start-Up Company</option>
         </select>
 
-        <h4>How would you rank your current programming knowledge?</h4>
+        <h4>Do you already know a programming language?</h4>
         <select class="form-control" id="fourth">
+          <option value=""></option>
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
+        <h4>How would you rank your current programming knowledge?</h4>
+        <select class="form-control" id="fifth">
           <option value=""></option>
           <option value="beginner">Beginner</option>
           <option value="intermediate">Intermediate</option>
           <option value="advanced">Advanced</option>
         </select>
-
-        <h4>What do you want to build?</h4>
-        <select class="form-control" id="fifth">
-          <option value=""></option>
-          <option>Webpages</option>
-          <option>Games</option>
-          <option>Mobile Apps</option>
-          <option>Business Software</option>
-        </select>
       </div>
-
 
       <button type="submit" class="btn btn-primary">Find your track!</button>
 
-      <input type="reset" class="btn btn-primary" onClick="window.location.reload()"  value="Start again!">
+      <input type="reset" class="btn btn-primary" onClick="window.location.reload()" value="Start again!">
 
     </form>
 

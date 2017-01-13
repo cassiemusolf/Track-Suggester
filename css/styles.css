@@ -1,26 +1,17 @@
-.jumbotron {
-  font-family: serif;
-  text-align: center;
-  margin-top: 40px;
-  background-color: #b0b7b7;
-  border: solid black;
-  border-width: thin;
-}
-
 body {
   background-color: #D8D8D8;
   margin-bottom: 40px;
 }
 
 h4 {
-  font-family: cursive;
+  font-family: 'Roboto';
   font-size: 20px;
   margin: 20px;
 }
 
 h3 {
-  font-family: cursive;
-  color: blue;
+  font-family: 'Roboto';
+  color: red;
   margin-bottom: 30px;
   margin-top: 30px;
 }
@@ -50,7 +41,7 @@ h3 {
 }
 
 p {
-  font-family: cursive;
+  font-family: 'Roboto';
   font-size: 20px;
   color: blue;
   text-align: center;
@@ -64,13 +55,14 @@ p {
 }
 
 .mid h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   font-weight: 900;
   color: white;
   text-transform: uppercase;
   margin: 0;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
+  top: 20%;
+  left: 40%;
+  font-size: 4rem;
   transform: translate(-50%, -50%);
+}

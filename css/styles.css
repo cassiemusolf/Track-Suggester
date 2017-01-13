@@ -12,7 +12,7 @@ body {
   margin-bottom: 40px;
 }
 
-p {
+h4 {
   font-family: cursive;
   font-size: 20px;
   margin: 20px;
@@ -22,4 +22,34 @@ h3 {
   font-family: cursive;
   color: blue;
   margin-bottom: 30px;
+}
+
+button {
+  margin-top: 40px;
+}
+
+.css {
+  display: none;
+}
+
+.ruby {
+  display: none;
+}
+
+.java {
+  display: none;
+}
+
+.c {
+  display: none;
+}
+
+p {
+  font-family: cursive;
+  font-size: 20px;
+  color: blue;
+  text-align: center;
+  border: solid black;
+  margin: 40px;
+  padding: 20px;
 }

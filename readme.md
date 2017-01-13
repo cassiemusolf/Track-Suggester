@@ -1,12 +1,12 @@
-# _{Progamming Track Suggester}_
+# _Progamming Track Suggester_
 
-#### _{A Quiz for Programming Languages}, {01/13/2017}_
+#### _A Quiz for Programming Languages, 01/13/2017_
 
 #### By Cassie Musolf
 
 ## Description
 
-_{This webpage includes a quiz that users can take in order to determine which programming language track would be best for them to learn. It includes a submit and reset button so the quiz can be taken again without the need to reload the page.}_
+_This webpage includes a quiz that users can take in order to determine which programming language track would be best for them to learn. It includes a submit and reset button so the quiz can be taken again without the need to reload the page._
 
 ## Setup/Installation Requirements
 
@@ -23,10 +23,10 @@ _{If you run into any issues, feel free to contact me by email at cassiemusolf@g
 
 ## Technologies Used
 
-_{HTML</br>CSS</br>Javascript</br>Bootstrap</br>JQuery</br>}_
+_HTML</br>CSS</br>Javascript</br>Bootstrap</br>JQuery</br>_
 
 ### License
 
-*{This webpage is licensed under the MIT license.}*
+*This webpage is licensed under the MIT license.*
 
-Copyright (c) 2017 **_{Cassie Musolf}_**
+Copyright (c) 2017 **_Cassie Musolf_**

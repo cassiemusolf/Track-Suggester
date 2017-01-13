@@ -7,10 +7,12 @@ $(document).ready(function() {
     var fourth = $("#fourth").val();
     var fifth = $("#fifth").val();
 
-      if (first === "front-end") {
+      if (first === "front-end" && second === "web applications") {
         $(".css").show();
-      } else if (first === "back-end") {
-       $(".c").show();
+      } else if (second === "web applications" && third === "start-up") {
+       $(".ruby").show();
+     } else if (second === "mobile apps") {
+      $(".java").show();
     } else if (first === "") {
        alert("Please answer all of the questions!");
      } else if (second === "") {

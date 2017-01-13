@@ -15,11 +15,11 @@ _This webpage includes a quiz that users can take in order to determine which pr
 
 ## Known Bugs
 
-_{If the user takes the quiz more than once without pressing the reset button or reloading the page, the previous result won't disappear.}_
+_If the user takes the quiz more than once without pressing the reset button or reloading the page, the previous result won't disappear._
 
 ## Support and contact details
 
-_{If you run into any issues, feel free to contact me by email at cassiemusolf@gmail.com.}_
+_If you run into any issues, feel free to contact me by email at cassiemusolf@gmail.com._
 
 ## Technologies Used
 

@@ -6,9 +6,11 @@ $(document).ready(function() {
     var third = $("#third").val();
     var fourth = $("#fourth").val();
     var fifth = $("#fifth").val();
+    var nameInput = $("input#name").val();
 
+    $(".name").text(nameInput);
       if (first === "front-end" && second === "web applications") {
-        $(".css").show();
+        $ (".css").show();
       } else if (second === "web applications" && third === "start-up") {
        $(".ruby").show();
      } else if (second === "mobile apps") {

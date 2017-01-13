@@ -44,6 +44,10 @@ button {
   display: none;
 }
 
+.python {
+  display: none;
+}
+
 p {
   font-family: cursive;
   font-size: 20px;

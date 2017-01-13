@@ -9,14 +9,16 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
 
     $(".name").text(nameInput);
-      if (first === "front-end" && second === "web applications") {
+      if (first === "front-end") {
         $ (".css").show();
-      } else if (second === "web applications" && third === "start-up") {
+      } else if (second === "web applications" || third === "start-up" && first === "back-end") {
        $(".ruby").show();
-     } else if (second === "mobile apps") {
+     } else if (second === "mobile apps" && first === "back-end") {
       $(".java").show();
-    } else if (second === "games") {
-      $(".python").show();  
+    } else if (second === "games" && first === "back-end") {
+      $(".python").show();
+    } else if (second === "all") {
+      $(".python" && ".c").show();
     } else if (first === "") {
        alert("Please answer all of the questions!");
      } else if (second === "") {

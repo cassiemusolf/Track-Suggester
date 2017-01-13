@@ -9,17 +9,8 @@ $(document).ready(function() {
     var nameInput = $("input#name").val();
 
     $(".name").text(nameInput);
-      if (first === "front-end") {
-        $ (".css").show();
-      } else if (second === "web applications" || third === "start-up" && first === "back-end") {
-       $(".ruby").show();
-     } else if (second === "mobile apps" && first === "back-end") {
-      $(".java").show();
-    } else if (second === "games" && first === "back-end") {
-      $(".python").show();
-    } else if (second === "all") {
-      $(".python" && ".c").show();
-    } else if (first === "") {
+
+  if (first === "") {
        alert("Please answer all of the questions!");
      } else if (second === "") {
        alert("Please answer all of the questions!");
@@ -29,7 +20,20 @@ $(document).ready(function() {
        alert("Please answer all of the questions!");
      } else if (fifth === "") {
        alert("Please answer all of the questions!");
-     }
+     } else if (first === "front-end") {
+        $ (".css").show();
+     } else if (first === "back-end" && second === "web applications" && third === "start-up") {
+       $(".ruby").show();
+     } else if (first === "back-end" && second === "mobile apps") {
+      $(".java").show();
+    } else if ( first === "back-end" && second === "games") {
+      $(".python").show();
+    } else if (first === "back-end" && second === "all") {
+      $(".c").show();
+    }
+      $("input[type=reset]").on("click", function(){
+        window.location.reload()
+    }
 
   });
 });

@@ -1,11 +1,23 @@
 .jumbotron {
-  font-family: cursive;
+  font-family: serif;
   text-align: center;
   margin-top: 40px;
+  background-color: #b0b7b7;
+  border: solid black;
+  border-width: thin;
+}
+
+body {
+  background-color: #ecffe6;
 }
 
 p {
   font-family: cursive;
-  color: green;
   font-size: 20px;
+}
+
+h3 {
+  font-family: cursive;
+  color: blue;
+  margin-bottom: 30px;
 }

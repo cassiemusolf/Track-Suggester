@@ -1,5 +1,19 @@
-$(document).ready(function)() {
+$(document).ready(function() {
+  $("form#survey").submit(functon(event) {
+    event.preventDefault();
+    var first = $("#").val());
+    var second = $("#").val());
+    var third = $("#").val());
+    var fourth = $("#").val());
+    var fifth = $("#").val());
 
-event
+      if () {
+        $("").show();
+      } else if () {
+        $("").show();
+      } else if () {
+        $("").show() {
+      }
 
+  });
 });
